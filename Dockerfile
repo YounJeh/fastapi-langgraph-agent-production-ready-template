@@ -2,7 +2,7 @@ FROM python:3.13.2-slim
 
 # Set working directory
 WORKDIR /app
-
+#
 # Set non-sensitive environment variables
 ARG APP_ENV=production
 ARG POSTGRES_URL
